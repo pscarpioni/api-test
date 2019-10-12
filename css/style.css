@@ -25,9 +25,20 @@
 	font-size: 20px;
 }
 #background{
-	background-color: antiquewhite
+	background-color: gainsboro
 }
-#background-line{
-	background-color: blue
+#title{
+	font-family: 'Patua One', cursive;
+	text-align: center;
+	font-size: 50px;
+}	
+#bannerHome{
+	grid-template-columns: 1fr;
+	background-image: image("https://api.integracommerce.com.br/Content/images/astronautaIntegra.jpg");
+	object-fit: cover;
+	width: 1200px;
+	height: 600px;
+	object-position: 0% 0%;
 }
+
 
